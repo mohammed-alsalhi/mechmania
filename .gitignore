@@ -1,0 +1,14 @@
+/*
+!/src/
+/src/*
+!/src/strategy/
+**/target/
+!/mm-config.toml
+!/.gitignore
+
+# Local development tools and reproducible training sources.
+!/tools/
+!/training/
+**/__pycache__/
+**/*.pyc
+**/target/

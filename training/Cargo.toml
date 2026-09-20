@@ -1,0 +1,11 @@
+[package]
+name = "training-bot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.98"
+mm-engine = { git = "https://github.com/mechmania/engine.git", default-features = false, features = ["client"] }
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.140"
+tokio = { version = "1.45.1", features = ["full"] }
